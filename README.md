@@ -5,7 +5,7 @@ This repository contains the sentimental analysis on [Twitter data](https://www.
 2. Machine/Deep learning
 
 Rule-based sentiment analysis 
-======
+------
 
 It is one of the simplest approaches to determine text sentiments. It only requires minimal pre-work and the idea is quite simple, this method does not use any machine learning to figure out the text sentiment. The algorithm calculates the sentiment score from a set of manually created rules. For example, it can figure out the sentiments of a sentence by counting the number of times the user has used the word such as “great”,  “sad” in his/her tweet. 
 
@@ -25,7 +25,7 @@ VADAR uses a list of lexical features (e.g. word) which are labeled as positive 
 Vader sentiment returns the probability of a given input sentence to be Positive, negative, and neutral. 
 
 Machine/Deep learning 
-======
+------
 
 In this method Bidirectional lstm model was build trained,  Long Short Term Memory networks (LSTM) are a subclass of RNN, specialized in remembering information for a long period of time. More over the Bidirectional lstms keep the contextual information in both directions.
 
